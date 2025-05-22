@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table {
+            width:100%;
+            text-align: center;
+            border-collapse: collapse;
+            color: #5d2c2c;
+        }
+        td,th {
+            border: 1px solid black;
+            padding:10px
+        }
+        tr:nth-child(even){
+            background-color: #d4d4d4;
+        }
+    </style>
+</head>
+<body>
+    <table style="width:100%;">
+        <colgroup>
+            <col span="2" style="background-color:aquamarine"/>
+        </colgroup>
+        <tr>
+            <th>Country</th>
+            <th>Country Code</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Pakistan</td>
+            <td>PK</td>
+            <td>pk@gmail.com</td>
+        </tr>
+        <tr>
+            <td>United Kingdom</td>
+            <td>UK</td>
+            <td>uk@gmail.com</td>
+        </tr>
+        <tr>
+            <td>United States of America</td>
+            <td>USA</td>
+            <td>usa@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Japan</td>
+            <td>JP</td>
+            <td>jp@gmail.com</td>
+        </tr>
+    </table>
+</body>
+
+<body>
+    <table>
+        <tr>
+            <th >Country</th>
+            <td>Pakistan</td>
+            <td>Japan</td>
+        </tr>
+        <tr>
+            <th >Country Code</th>
+            <td>PK</td>
+            <td>JP</td>
+        </tr>
+        <tr>
+            <th>Address:</th>
+            <td>Lahore</td>
+            <td>Hiroshima</td>
+        </tr>
+    </table>
+</body>
+</html>
